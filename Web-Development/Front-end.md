@@ -1,2 +1,2 @@
-1. [ Native Javascript Questions ](/NativeJavascript/questions)
-2. [ Native Javascript Answers ](/NativeJavascript/answers)
+1. [ Native Javascript Questions ](/NativeJavascript/questions.md)
+2. [ Native Javascript Answers ](/NativeJavascript/answers.md)
