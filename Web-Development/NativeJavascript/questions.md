@@ -6,10 +6,10 @@
     sum(1,2,.3) => 3.3
 
     ```
-2. Explain the prototypal inheirtance ?
-3. Explain the closures ?
+2. Explain the prototypal inheritance?
+3. Explain the closures?
 4. Difference between `var` ,`let` & `const` ?
-5. What would be the output of following code ?
+5. What would be the output of the following code?
     ```
     function a(){
         console.log(b);
@@ -17,8 +17,8 @@
     var b=6;
     
     ```
-6. How the javascript engine and Browser handles asynchronous calls ?
-7. Difference between callbacks and promises ?
-8. Which one your prefer among React and Angular ?
-9. How do you simiulate low speed networks ?
-10. Why the `use strict` is used ?
+6. How the javascript engine and Browser handles asynchronous calls 
+7. Difference between callbacks and promises?
+8. Which one do you prefer among React and Angular?
+9. How do you simulate the low speed networks?
+10. Why the `use strict` is used?
