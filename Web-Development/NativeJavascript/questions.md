@@ -6,7 +6,7 @@
     sum(1,2,.3) => 3.3
 
     ```
-2. Explain the prototypal inheritance?
+2. Explain the inheritance in javascript?
 3. Explain the closures?
 4. Difference between `var` ,`let` & `const` ?
 5. What would be the output of the following code?
@@ -15,9 +15,9 @@
         console.log(b);
     }
     var b=6;
-    
+    a();
     ```
-6. How the javascript engine and Browser handles asynchronous calls 
+6. How the javascript engine and Browser handles asynchronous calls?
 7. Difference between callbacks and promises?
 8. Which one do you prefer among React and Angular?
 9. How do you simulate the low speed networks?
