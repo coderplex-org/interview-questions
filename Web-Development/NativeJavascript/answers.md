@@ -2,6 +2,7 @@
 1. Write a function which can add all the arguments and return the value ?
  
  Before ES6
+ 
     ```
     function sum(){
         let 
