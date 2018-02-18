@@ -1,6 +1,6 @@
 # Answers to the frontend questions Native script
 1. Write a function which can add all the arguments and return the value ?
- ## Answer
+ 
  Before ES6
     ```
     function sum(){
@@ -23,13 +23,13 @@
     ```
 
 2. Explain the inheritance in javascript?
-    ## Answer
+    
     Prototypes are the mechanism by which javascript gets the inheritance. In other Object Oriented languages, inheritance is implemented by copying the properties of the parent to children but in javascript a link is formed between parent to children with a property called `__proto__` .
     Each object in javascript has a reference to the proto object by which it can access properties and objects from its parent object. So if we change the parent property the from the child we are actually changing parent itself.
 
 
 3. Explain the closures?
-    ## Answer
+    
     Closure in javascript is the phenomenon in javascript where the javascript engine will bind the variables declared outside the function and used inside the function like below. Here `name` is 
     ```
     function memberAge(name){
@@ -47,7 +47,7 @@
 
 
 4. Difference between `var` ,`let` & `const` ?
-    ## Answer
+    
     `let` and `const` are scoped to a block of code and same is not in the case of `var`.
     ```
     {
@@ -83,12 +83,12 @@
     var b=6;
     a();
     ```
-    ## Answer
+    
     b will be `undefined` as only the variables are hoisted but not the assignment.
 
 
 6. How the javascript engine and Browser handles asynchronous calls?
-    ## Answer
+    
     Javascript Runtime has a message queue, an event loop and a call stack which will help to execute its asynchronous calls. 
 
     The **call stack** is where the javascript runtime stack up of all its execution context if there are nested calls. 
@@ -123,7 +123,7 @@
 
 
 7.Difference between callbacks and promises?
-    ## Answer
+    
     Callback is the function which gets executed once the asynchronous callback finishes.
     Promise is an object represents the completion and failure of asynchronous operation. 
 
@@ -157,19 +157,19 @@
 
 
 8. What are the differences between React and Angular?
-    ## Answer
+    
     React more developer friendly and Angular build on solid software principles like MVC and dependency injection.
 
     https://www.telerik.com/docs/default-source/whitepapers/telerik-com/choose-the-right-javascript-framework-for-your-next-web-application_whitepaper.pdf?download=true
 
 
 9. How do you simulate the low speed networks?
-    ## Answer
+    
     Browsers are providing options to customize network speed so we can test the slow network speeds. We can check in network tab in Chrome Dev tools.
 
 
 10. Why the `use strict` is used?
-    ## Answer
+    
     `use strict` tells the javascript runtime to execute javascript code in strict mode and throw errors if they are any undeclared variables.
 
     For example 
