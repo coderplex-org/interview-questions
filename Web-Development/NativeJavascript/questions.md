@@ -19,6 +19,6 @@
     ```
 6. How the javascript engine and Browser handles asynchronous calls?
 7. Difference between callbacks and promises?
-8. Which one do you prefer among React and Angular?
+8. What are the differences between React and Angular?
 9. How do you simulate the low speed networks?
 10. Why the `use strict` is used?
